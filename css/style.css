@@ -1,0 +1,126 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+  }
+
+  h1, h2, h3 {
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 10px;
+    color: #222;
+  }
+
+  a {
+    text-decoration: none;
+    color: #0078ff;
+    transition: color 0.3s ease;
+  }
+
+  a:hover {
+    color: #0056b3;
+  }
+
+  /* Навігація */
+  nav {
+    background-color: #32993a;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav ul li {
+    margin-left: 20px;
+  }
+
+  nav ul li a {
+    color: #fff;
+    font-weight: bold;
+  }
+
+  .hero {
+    background-image: url('');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 120px 20px;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.4); /* Прозорий чорний фон для тексту */
+  }
+
+  .hero h1 {
+    font-size: 4rem; /* Збільшено розмір */
+    color: white;    /* Білий колір */
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+
+  .hero p {
+    font-size: 1.5rem;
+    line-height: 1.8;
+    margin-bottom: 40px;
+  }
+
+  .hero a {
+    padding: 12px 25px;
+    background: #ff9000;
+    color: white;
+    border-radius: 50px;
+    font-weight: bold;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+
+  .hero a:hover {
+    background: #ff7000;
+    transform: scale(1.1);
+  }
+
+  /* Розділи */
+  .section {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #fdfdfd;
+  }
+
+  .section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #00ff37;
+  }
+
+  .section p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 40px;
+  }
+
+  /* Футер */
+  footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+  }
+
+  footer p {
+    margin: 0;
+    font-size: 0.9rem;
+  }
+
+  footer a {
+    color: #04fd19;
+  }
