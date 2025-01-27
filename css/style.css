@@ -2,14 +2,14 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f9;
-    color: #333;
+    background-color: #26bd00
+    color: #15ff00;
   }
 
   h1, h2, h3 {
     font-family: 'Poppins', sans-serif;
     margin-bottom: 10px;
-    color: #222;
+    color: #347034;
   }
 
   a {
@@ -45,15 +45,15 @@ body {
   }
 
   nav ul li a {
-    color: #fff;
+    color: #ffffff;
     font-weight: bold;
   }
 
   .hero {
-    background-image: url('');
+    background-image: url('https://oda.zht.gov.ua/wp-content/uploads/images/news/2018_02/Polissya_3-1024x576.jpg');
     background-size: cover;
     background-position: center;
-    color: white;
+    color: rgb(255, 255, 255);
     text-align: center;
     padding: 120px 20px;
     background-blend-mode: overlay;
@@ -92,13 +92,13 @@ body {
   .section {
     padding: 60px 20px;
     text-align: center;
-    background-color: #fdfdfd;
+    background: url(https://polissyafc.com/img/bg.jpg) no-repeat center center/cover;
   }
 
   .section h2 {
     font-size: 2.5rem;
     margin-bottom: 20px;
-    color: #00ff37;
+    color: #ffffff;
   }
 
   .section p {
@@ -109,8 +109,8 @@ body {
 
   /* Футер */
   footer {
-    background-color: #222;
-    color: #fff;
+    background-color: #ffffff;
+    color: #000000;
     text-align: center;
     padding: 20px 0;
     margin-top: 20px;
@@ -122,5 +122,8 @@ body {
   }
 
   footer a {
-    color: #04fd19;
+    color: #00ff15;
+  }
+  #higt-lights {
+    background-color: #000000;
   }
